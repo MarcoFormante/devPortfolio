@@ -25,3 +25,7 @@ $shadow-card: 0 24px 50px rgba(0, 0, 0, 0.45);
 $gradient-primary: linear-gradient(90deg, $color-purple, $color-cyan);
 $gradient-mark: linear-gradient(135deg, $color-purple, $color-cyan);
 
+.bg-gradient-primary{
+    background: $gradient-primary;
+}
+
