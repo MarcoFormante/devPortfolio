@@ -1,5 +1,5 @@
 import { ArrowRight, MousePointerClick } from "lucide-react";
-import LinkButton from "../components/LinkButton";
+import LinkButton from "../../components/LinkButton";
 
 export default function Hero() {
   return (
