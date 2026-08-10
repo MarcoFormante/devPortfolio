@@ -5,7 +5,7 @@ import Home from "./pages/home/Home";
 export default function App() {
   return (
     <div className="bg-bg">
-      <div className="flex max-w-[1920px] m-auto">
+      <div className="max-w-[1920px] m-auto px-16 pb-10">
         <Header/>
         <main className="flex-6">
             <Routes>
