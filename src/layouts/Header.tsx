@@ -44,11 +44,11 @@ export default function Header() {
   }
 
   return (
-    <header className="bg-bg w-full px-16 py-7">
+    <header className="bg-bg w-full py-7 relative z-10">
         <nav aria-label="Navigazione principale" className="flex justify-between items-center h-full">
           <a href="/" className="text-text flex items-center gap-3">
             <span className="w-10 h-10 font-bold tracking-wider bg-linear-240 from-purple to-cyan rounded-xl grid place-items-center">MF</span>
-            <span>Marco.Formante</span>
+            <span className='text-text font-bold'>Junior.Dev</span>
           </a>
 
           <ul className="flex gap-4 ">
