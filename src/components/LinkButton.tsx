@@ -1,14 +1,17 @@
+import type { JSX } from "react/jsx-runtime"
 
 interface LinkButtonInterface{
     to:string,
     styles:string,
     text:React.ReactNode,
     children?:React.ReactNode,
-    target?:boolean
+    target?:string,
+    ComponentType:JSX.ElementType
 }
 
-export default function LinkButton({to,styles= "",text,children,target = false}:LinkButtonInterface) {
+export default function LinkButton({to,styles= "",text,children,ComponentType,target}:LinkButtonInterface) {
+  
   return (
-    <a target={target ? "_blank" : "_self"} href={to} className={`flex items-center gap-2.5 rounded-[18px] w-max ${styles}`}>{text} {children}</a>
+    <ComponentType target={target ?? null} href={to} className={`flex items-center gap-2.5 rounded-[18px] w-max ${styles}`}>{text} {children}</ComponentType>
   )
 }
