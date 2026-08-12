@@ -1,8 +1,7 @@
 import { ArrowUpRight } from "lucide-react";
-import { useState } from "react";
 import { NavLink } from "react-router";
 
-interface ProjectCardinterface{
+interface ProjectCard{
     index:number,
     title:string,
     stack:string,
@@ -21,7 +20,7 @@ desc,
 slug,
 textColor,
 bgColor
-}:ProjectCardinterface)
+}:ProjectCard)
 {
    
 // IF index == NaN or index < 1 -> show "0" ELSE IF index < 10  -> show "0" + index  
