@@ -9,6 +9,10 @@
   background: linear-gradient(90deg, #7C3AFF, #00D4FF);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .code-container {
   overflow: hidden;
 }

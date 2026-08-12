@@ -1,6 +1,10 @@
 @import "../index.css"; //tailwindcss
 @import "./variables"; 
 
+html{
+    scroll-behavior: smooth;
+}
+
 .code-container{
     overflow: hidden;
 }
