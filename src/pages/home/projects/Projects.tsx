@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <section id="progetti" className="mt-20">
         <h2 className="text-cyan font-black text-xs">PROGETTI</h2>
-        <p className="text-text font-extrabold text-[42px]">Alcuni dei miei lavori migliori</p>
+        <p className="text-text font-extrabold text-[42px] mt-5">Lavori in Evidenza</p>
         <ul className="grid grid-cols-2 gap-6 mt-10">
           <li>
               <ProjectCard 
