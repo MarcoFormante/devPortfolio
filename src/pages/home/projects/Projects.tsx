@@ -13,7 +13,8 @@ export default function Projects() {
               stack="React · Zustand · Tailwind"
               desc="SPA per organizzare task, filtri e stato completamento."
               slug="dashboard-tech"
-              color="purple"
+              textColor="text-purple"
+              bgColor="after:bg-purple"
               />
           </li>
           <li >
@@ -23,7 +24,8 @@ export default function Projects() {
               stack="React · Zustand · Tailwind"
               desc="SPA per organizzare task, filtri e stato completamento."
               slug="dashboard-tech"
-              color="pink"
+              textColor="text-pink"
+              bgColor="after:bg-pink"
               />
           </li>
           <li >
@@ -33,7 +35,8 @@ export default function Projects() {
               stack="React · Zustand · Tailwind"
               desc="SPA per organizzare task, filtri e stato completamento."
               slug="dashboard-tech"
-              color="cyan"
+              textColor="text-cyan"
+              bgColor="after:bg-cyan"
               />
           </li>
           <li >
@@ -43,7 +46,8 @@ export default function Projects() {
               stack="React · Zustand · Tailwind"
               desc="SPA per organizzare task, filtri e stato completamento."
               slug="dashboard-tech"
-              color="green"
+              textColor="text-green"
+              bgColor="after:bg-green"
               />
           </li>
         </ul>
