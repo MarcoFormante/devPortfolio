@@ -48,7 +48,7 @@ export default function Header() {
         <nav aria-label="Navigazione principale" className="flex justify-between items-center h-full">
           <a href="/" className="text-text flex items-center gap-3">
             <span className="w-10 h-10 font-bold tracking-wider bg-linear-240 from-purple to-cyan rounded-xl grid place-items-center">MF</span>
-            <span className='text-text font-bold'>Junior.Dev</span>
+            <span className='text-text font-bold'>Web.Dev</span>
           </a>
 
           <ul className="flex gap-4 ">
